@@ -6,8 +6,8 @@ import requests
 import time
 from wxpusher import WxPusher
 
-app_token = 'AT_pGJXhP8fb5GtAj1UNzPuFBHyGMLLurmZ'   # 本处改成自己的应用 appToken
-uid_myself = 'UID_CkXdtKXbmE6swDhjKClRe5l4Luk5'     # 本处改成自己的 UID
+app_token = ''   # 本处改成自己的应用 appToken
+uid_myself = ''     # 本处改成自己的 UID
 
 def wxpusher_send(msg):
     result = WxPusher.send_message(msg,
